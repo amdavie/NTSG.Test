@@ -1,0 +1,6 @@
+﻿﻿{{- capture output -}}
+{{~ for i in (1..66666) ~}}
+// {{i}}
+{{~ end ~}}
+{{ end  }}
+{{ Save output "../NTSG.Two/Test.g.cs" }}
